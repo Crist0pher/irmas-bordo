@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    border: solid 30px #586a35;
+
+}
+.body{
+    font-family: 'Pompiere', cursive;
+
+    background-color: white; 
+    text-align: center;
+    color: black;
+    align-items: center;
+}
+
+.header{
+    text-align: center;
+    margin: 30px;
+    font-family: 'Pompiere', cursive;
+
+}
+.form{
+
+    position:relative;
+    margin: auto;
+    width:320px;
+    height:270px;
+}
+
+
+.black-line{
+    margin: auto;
+    margin-top: 15px;
+	border: 1px solid black;
+    
+    width: 60%;
+}
+img{
+    margin-top: 80px;
+}
+button{
+    align-items: center;
+
+    margin-top: 20px;
+    display:block;
+    border: none;
+    background-color: none;
+    background: none;
+
+}
