@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    
 }
 body {
     min-height: 100%;
@@ -16,19 +17,29 @@ body {
 }
 
 .header{
+    font-size: 10px;
     text-align: center;
     margin: 30px;
     font-family: 'Pompiere', cursive;
 
 }
 .form{
-
+   
     position:relative;
     margin: auto;
     width:320px;
     height:270px;
 }
 
+#input{
+    background-color:#5b7036;
+    border-color: #5b7036;
+    width: 90%;
+}
+
+.form-control{
+    width: 90%;
+}
 
 .black-line{
     margin: auto;
@@ -38,7 +49,8 @@ body {
     width: 60%;
 }
 img{
-    margin-top: 80px;
+    margin-top: 20%;
+    margin-left: 20%;
 }
 button{
     align-items: center;

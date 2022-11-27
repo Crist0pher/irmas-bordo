@@ -1,3 +1,10 @@
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+
+}
 #body{
     background-color: #9da888; 
     text-align: center;
@@ -13,14 +20,13 @@
     margin-top: 15px;
     background-color: #5d7337;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
 
 }
     
 #title{
-    font-size: 200%;
-
+    font-size: 150%;
     color: white;
     text-align: center;
     vertical-align:middle;
@@ -35,10 +41,8 @@
     margin-bottom: 60px;
     
 }
-h3{
-    margin-top: 100px;
-    text-align: center;
-
+.h3{
+    margin-top: 60px;
 }
 
 .form{
@@ -55,7 +59,7 @@ h3{
     margin-top: 15px;
 	border: 1px solid white;
     
-    width: 60%;
+    width: 80%;
 }
 
 button{
@@ -66,4 +70,8 @@ button{
     background-color: none;
     background: none;
 
+}
+
+.formlogin button{
+    margin: auto;
 }
