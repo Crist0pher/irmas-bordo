@@ -1,54 +1,70 @@
 html {
     height: 100%;
 }
+
 body {
     min-height: 100%;
-    border: solid 30px #586a35;
+    border: solid 30px #9da888;
 
 }
-.body{
+
+.body {
     font-family: 'Pompiere', cursive;
 
-    background-color: white; 
+    background-color: white;
     text-align: center;
     color: black;
     align-items: center;
 }
 
-.header{
+.header {
     text-align: center;
     margin: 30px;
     font-family: 'Pompiere', cursive;
 }
 
-.form{
+.form {
 
-    position:relative;
-    margin: auto;
-    width:320px;
-    height:270px;
+    margin-top: 20PX;
+    position: relative;
+    width: 320px;
+    height: 270px;
     text-align: left;
 }
-input{
+
+input {
     display: block;
 }
-.black-line{
+
+.black-line {
     margin: auto;
     margin-top: 15px;
-	border: 1px solid black;
-    
+    border: 1px solid black;
+
     width: 60%;
 }
-img{
-    margin-top: 80px;
+
+img {
+    margin: auto;
+
 }
-button{
+
+button {
     align-items: center;
 
     margin-top: 20px;
-    display:block;
+    display: block;
     border: none;
     background-color: none;
     background: none;
 
+}
+
+.image-upload>input {
+    display: none;
+
+}
+
+img {
+    border-radius: 20px;
 }

@@ -18,11 +18,14 @@ body {
     font-family: 'Crafty Girls', cursive;
     margin:auto;
     margin-top: 15px;
-    background-color: #5d7337;
+    background-color: #3A4429;
     border-radius: 50%;
     width: 130px;
     height: 130px;
 
+}
+.form span{
+    text-align: left;
 }
     
 #title{
@@ -42,7 +45,7 @@ body {
     
 }
 .h3{
-    margin-top: 60px;
+   
 }
 
 .form{

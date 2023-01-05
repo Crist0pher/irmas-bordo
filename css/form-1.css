@@ -4,7 +4,7 @@ html {
 }
 body {
     min-height: 100%;
-    border: solid 30px #586a35;
+    border: solid 10px #9da888;
 
 }
 .body{
@@ -29,16 +29,20 @@ body {
     margin: auto;
     width:320px;
     height:270px;
+    text-align: left;
 }
 
 #input{
-    background-color:#5b7036;
-    border-color: #5b7036;
+    background-color:#9da888;
+    border-color: #9da888;
+    color: black;
     width: 90%;
 }
 
 .form-control{
-    width: 90%;
+    width: 50%;
+    margin: auto;
+    border: none;
 }
 
 .black-line{
@@ -46,7 +50,7 @@ body {
     margin-top: 15px;
 	border: 1px solid black;
     
-    width: 60%;
+    width: 80%;
 }
 img{
     margin-top: 20%;
@@ -54,7 +58,6 @@ img{
 }
 button{
     align-items: center;
-
     margin-top: 20px;
     display:block;
     border: none;
@@ -62,3 +65,4 @@ button{
     background: none;
 
 }
+
